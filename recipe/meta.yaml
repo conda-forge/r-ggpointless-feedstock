@@ -1,4 +1,4 @@
-{% set version = '0.0.1' %}
+{% set version = "0.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpointless_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpointless/ggpointless_{{ version }}.tar.gz
-  sha256: c1094cf909ca3ebb6da657a68b6562151886545c50022536a764664a90528407
+  sha256: 51734cc07d06a31923651a4c39f2ad414ef9000ed0776b6a1d6b83ec81718d7c
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -39,9 +39,7 @@ test:
 about:
   home: https://flrd.github.io/ggpointless/, https://github.com/flrd/ggpointless
   license: MIT
-  summary: Add minimal emphasis to your plots. 'ggpointless' is a small extension of the 'ggplot2'
-    library making it easy to highlight the first, or last observations, sample minimum
-    and maximum. The goal is to provide additional context. Or just some visual sugar.
+  summary: Add minimal emphasis to your plots. 'ggpointless' is a small extension of the 'ggplot2' library making it easy to highlight the first, or last observations, sample minimum and maximum. The goal is to provide additional context. Or just some visual sugar.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
