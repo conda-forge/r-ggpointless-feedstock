@@ -1,11 +1,11 @@
-About r-ggpointless
-===================
+About r-ggpointless-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggpointless-feedstock/blob/main/LICENSE.txt)
 
 Home: https://flrd.github.io/ggpointless/, https://github.com/flrd/ggpointless
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggpointless-feedstock/blob/main/LICENSE.txt)
 
 Summary: Add minimal emphasis to your plots. 'ggpointless' is a small extension of the 'ggplot2' library making it easy to highlight the first, or last observations, sample minimum and maximum. The goal is to provide additional context. Or just some visual sugar.
 
