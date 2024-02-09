@@ -1,4 +1,4 @@
-{% set version = "0.0.3" %}
+{% set version = "0.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpointless_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpointless/ggpointless_{{ version }}.tar.gz
-  sha256: 497b8e3c0fca84f25903fcdb9a6de21a31e90a931d7c763f96f54657bf6f8abe
+  sha256: 496dee3fcc02b2088d0faa9b0245fbf3dc5cf7c902fffe6ea25e0fa6982cede3
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
