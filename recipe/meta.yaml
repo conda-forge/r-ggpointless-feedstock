@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpointless_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpointless/ggpointless_{{ version }}.tar.gz
-  sha256: eb4d89ff5b323223829769ea5f5847deb5c6fe36114134169e438d092ea9c858
+  sha256: 0b8b945f0a75bee9b36f44fc20aa803bb8d01e5e59251a2932f1efd6dd196822
 
 build:
   number: 0
